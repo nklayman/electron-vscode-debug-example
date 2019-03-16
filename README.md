@@ -1,29 +1,27 @@
-# electron-vscode-debug-example
+# Electron VSCode Debug Example
+
+> A demo repository for using [Visual Studio Code](https://code.visualstudio.com/) to debug your [Vue CLI Plugin Electron Builder](https://nklayman.github.io/vue-cli-plugin-electron-builder/) App
+
+[Instructions on Vue CLI Plugin Electron Builder Docs](https://nklayman.github.io/vue-cli-plugin-electron-builder/guide/recipes.html#debugging-with-vscode)
 
 ## Project setup
+
 ```
 yarn install
 ```
 
-### Compiles and hot-reloads for development
+### Debug App
+
+Run the `Electron: All` debug command in VSCode to debug your app.
+
+### Start Electron development server
+
 ```
-yarn run serve
+yarn electron:serve
 ```
 
-### Compiles and minifies for production
-```
-yarn run build
-```
+### Build Electron app for distribution
 
-### Run your tests
 ```
-yarn run test
+yarn electron:build
 ```
-
-### Lints and fixes files
-```
-yarn run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
